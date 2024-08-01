@@ -33,7 +33,7 @@ public class App extends JFrame implements ActionListener, KeyListener {
 		title.setFont(new Font("Computer Modern Roman", Font.PLAIN, 30));
 		this.add(title, BorderLayout.NORTH);
 		
-		description = new JLabel("<html>If the calculator returns NaN or infinity anywhere, the scenario is not physically possible.</html>");
+		description = new JLabel("<html>If the calculator returns NaN or infinity anywhere, the values entered are not physically possible.</html>");
 		description.setFont(new Font("Computer Modern Roman", Font.PLAIN, 20));
 		//this.add(description, FlowLayout.CENTER);
 		
